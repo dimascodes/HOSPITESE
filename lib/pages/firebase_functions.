@@ -1,0 +1,9 @@
+const functions = require("firebase-functions");
+const admin = require("firebase-admin");
+admin.initializeApp();
+
+exports.getSubCollections = functions.https.onCall(async (data, context) => {
+  const { parentId } = data;
+  const collections = await admin.firestore().collection('kamar').doc(parentId).listCollections();
+  return collections.map((col) => col.id);
+});
