@@ -8,8 +8,6 @@ import 'package:hospitese/pages/jenis_perawatan.dart';
 import 'package:hospitese/pages/ketersediaan_kamar.dart';
 import 'package:hospitese/pages/pendaftaran.dart';
 import 'package:hospitese/tes/navbar.dart';
-import 'obat/add_obat.dart';
-import 'obat/stock_obat.dart'; 
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
