@@ -47,7 +47,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCHg2Lr-CgxCuGYgDCBhcklST-NigjEVF4',
+    apiKey: 'i know would u know',
     appId: '1:517045073961:web:08a40afe8921ae88488438',
     messagingSenderId: '517045073961',
     projectId: 'hospitese2',
@@ -58,7 +58,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDB5hE2OFogKEcbHzxQsHqK1_MdL6F9amw',
+    apiKey: 'skill issue',
     appId: '1:517045073961:android:75730eae60d4d8f7488438',
     messagingSenderId: '517045073961',
     projectId: 'hospitese2',
@@ -67,7 +67,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyCHg2Lr-CgxCuGYgDCBhcklST-NigjEVF4',
+    apiKey: 'hanya kesalahan kecil',
     appId: '1:517045073961:web:fdc2de53d2aad122488438',
     messagingSenderId: '517045073961',
     projectId: 'hospitese2',
